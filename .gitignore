@@ -1,0 +1,10 @@
+.idea
+node_modules
+dist
+tmp
+html
+json
+test
+
+
+*.zip

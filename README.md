@@ -1,1 +1,10 @@
-# sync-ublock-my-filters-to-gist
+
+# first
+```shell
+npm install
+```
+
+# second
+```shell
+node tmp.js
+```

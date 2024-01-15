@@ -1,0 +1,24 @@
+{
+  "name": "sync-ublock-my-filters-to-gist",
+  "version": "0.0.2",
+  "description": "",
+  "main": "tmp.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "homepage": "https://github.com/vacantthinker-firefox-addons/sync-ublock-my-filters-to-gist",
+  "author": "vacantthinker",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "latest",
+    "@types/node": "latest",
+    "archiver": "^5.3.1",
+    "copy-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "dependencies": {
+    "octokit": "^3.1.2"
+  }
+}

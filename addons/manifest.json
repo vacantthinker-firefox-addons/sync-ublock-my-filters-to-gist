@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "sync ublock my filters to gist",
+  "description": "sync ublock my filters to gist \n",
+  "version": "2024.1.15.1",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sync-ublock-my-filters-to-gist@example.com"
+    }
+  },
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "menus",
+    "notifications",
+    "storage",
+    "unlimitedStorage",
+    "management",
+    "moz-extension://*/*"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "default_title": "setting",
+    "default_popup": "popup-browser-act.html"
+  }
+}
